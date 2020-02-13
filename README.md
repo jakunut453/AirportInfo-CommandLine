@@ -21,7 +21,7 @@ The data was taken from [openflights.org](https://openflights.org/data.html). It
 The application requires Node to be installed which can be downloaded from this [link](https://nodejs.org/en/).
 
 ## Running the application
-Once Node is setup install the required packages by running `npm install` which installs all the packages mentioned in the `package.json` file.
+Once Node is setup install the required packages by running `npm install` from the directory containing the files, which installs all the packages mentioned in the `package.json` file.
 
 The application can then be run by running the command  
 
