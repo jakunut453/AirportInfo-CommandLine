@@ -14,8 +14,8 @@ The data was taken from [openflights.org](https://openflights.org/data.html). It
 * Longitude	Decimal degrees, usually to six significant digits. Negative is West, positive is East.
 * Altitude	In feet.
 * Timezone	Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5.
-* DST	Daylight savings time. One of E (Europe), A (US/Canada), S (South America), O (Australia), Z (New Zealand), N (None) or U (Unknown). 
-*Tz database time zone	Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".
+* DST Daylight savings time. One of E (Europe), A (US/Canada), S (South America), O (Australia), Z (New Zealand), N (None) or U (Unknown). 
+* Tz database time zone	Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".
 
 ## Dependencies
 The application requires Node to be installed which can be downloaded from this [link](https://nodejs.org/en/).
@@ -31,8 +31,18 @@ The above command searches for airports in Germany and retreives the first 4 res
 
 The flags are explained below.
 
+* `--Number` Used to specify the maximum number of results to retreive. The default value is 5.
 The following flags are used for searching. the search parameter must follow the flag as shown in the example.
 * `--AirportID` 
 * `--Name`
-
-
+* `--City`
+* `--Country`
+* `--IATA`
+* `--ICAO`
+* `--Latitude`
+* `--Longitude`
+* `--Altitude`
+* `--Timezone`
+* `--DST`
+* `--Tzdatabase`
+* `--type`
