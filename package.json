@@ -1,0 +1,17 @@
+{
+  "name": "airport",
+  "version": "1.0.0",
+  "description": "Simple data retrieval application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "lodash": "^4.17.15",
+    "string-format": "^2.0.0",
+    "yargs": "^15.1.0"
+  }
+}
