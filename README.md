@@ -2,7 +2,7 @@
 A Nodejs console application used retrieve data about airports from a file given search parameters
 
 ## Data 
-The data was taken from [openflights.org](https://openflights.org/data.html). It contains around 10,000 entries, with each entry 
+The data was taken from [openflights.org](https://openflights.org/data.html). It contains around 10,000 entries, with each entry containing a 
 
 * Airport ID	Unique OpenFlights identifier for this airport.
 * Name	Name of airport. May or may not contain the City name.
@@ -22,5 +22,17 @@ The application requires Node to be installed which can be downloaded from this 
 
 ## Running the application
 Once Node is setup install the required packages by running `npm install` which installs all the packages mentioned in the `package.json` file.
+
+The application can then be run by running the command  
+
+    node myapp.js -s --Country Germany --Number 4
+    
+The above command searches for airports in Germany and retreives the first 4 results.
+
+The flags are explained below.
+
+The following flags are used for searching. the search parameter must follow the flag as shown in the example.
+* `--AirportID` 
+* `--Name`
 
 
