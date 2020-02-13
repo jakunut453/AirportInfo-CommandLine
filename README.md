@@ -1,2 +1,3 @@
 # AirportInfo-CommandLine
-A command line application that uses Node.Js to retrieve data about airports given search parameters
+A Nodejs console application used retrieve data about airports from a file given search parameters
+
