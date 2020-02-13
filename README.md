@@ -25,7 +25,7 @@ Once Node is setup install the required packages by running `npm install` which 
 
 The application can then be run by running the command  
 
-    node myapp.js -s --Country Germany --Number 4
+    node app.js -s --Country Germany --Number 4
     
 The above command searches for airports in Germany and retreives the first 4 results.
 
