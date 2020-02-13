@@ -32,6 +32,7 @@ The above command searches for airports in Germany and retreives the first 4 res
 The flags are explained below.
 
 * `--Number` Used to specify the maximum number of results to retreive. The default value is 5.
+
 The following flags are used for searching. the search parameter must follow the flag as shown in the example.
 * `--AirportID` 
 * `--Name`
