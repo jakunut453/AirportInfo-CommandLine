@@ -3,7 +3,10 @@ var lodash = require('lodash');
 const csv =require("csvtojson");
 var format = require('string-format')
 
+// the possible fields
 var reqd = ['Name', 'AirportID', 'City', 'Country', 'IATA' ,'ICAO' ,'Latitude','Longitude','Altitude','Timezone','Tzdatabase','type'];
+
+//retreiving the fields given in the command line
 var given;
 if(argv.s){
     given = Object.keys(argv).filter(function(x){
@@ -11,14 +14,15 @@ if(argv.s){
     });
 }
 
+//converting the query into a JSON object
 var givenJson ={};
 given.forEach(function(item, index){
     givenJson[item] = argv[item].toString();
 })
-
 console.log("Query: ");
 console.log(givenJson);
 
+//reading from the csv file and filtering based on the query
 const csvFilePath="airports.csv";
 
 csv().fromFile(csvFilePath).then((jsonObj)=>{
