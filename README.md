@@ -44,6 +44,5 @@ The following flags are used for searching. the search parameter must follow the
 * `--Longitude`
 * `--Altitude`
 * `--Timezone`
-* `--DST`
 * `--Tzdatabase`
 * `--type`
